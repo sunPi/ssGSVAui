@@ -57,7 +57,7 @@ ESToMatrix <- function(ES){
 
 #---- Package Installation ----
 pkgs <- c("GSVA", "here", "GSEABase", "rstudioapi", "tibble")
-suppressMessages(mesocore::handleRequirements(pkgs))
+suppressMessages(handleRequirements(pkgs))
 
 #---- Header ----
 showDialog("ssGSEA", "Initialising ssGSEA script...")
